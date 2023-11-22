@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra text Editor</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+
+        }
+
+        .logo img {
+            width: 212px;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        ul {
+            display: flex;
+            gap: 46px;
+        }
+
+        ul li {
+            list-style-type: none;
+            display: inline;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+
+        }
+
+        .nlogo {
+            cursor: pointer;
+        }
+
+        @media only screen and (min-width: 980px){
+            .container {
+gap: 64px;
+padding: 110px;
+            display: grid;
+            border: 2px solid black;
+           
+            grid-template-columns: 100px 120px 140px;
+        }
+    }
+        .box {
+            border: 2px solid purple;
+            height: 400px;
+            width: 600px;
+
+        }
+
+        @media only screen and (max-width: 980px) {
+            .container {
+
+
+display: grid;
+border: 2px solid black;
+
+grid-template-columns: 100px ;}
+.box{
+    flex-direction: column;
+}
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+
+
+
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="ultraedit logo">
+            </div>
+            <ul>
+                <li><span>Products</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#141B34"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li><span>Pricing</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#141B34"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li><span>Resources</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#141B34"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li><span>About us</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#141B34"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <div class="nlogo"><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png"
+                        alt=""></div>
+            </ul>
+        </nav>
+        <main>
+            <div class="container">
+                <div id="1" class="box">
+                    <h1>English</h1>
+                </div>
+                <div id="2" class="box">2</div>
+                <div id="3" class="box">3</div>
+                <div id="4" class="box">4</div>
+                <div id="5" class="box">5</div>
+                <div id="6" class="box">6</div>
+                <div id="7" class="box">7</div>
+                <div id="8" class="box">8</div>
+                <div id="9" class="box">9</div>
+                <div id="10" class="box">10</div>
+            </div>
+        </main>
+    </header>
+</body>
+
+</html>

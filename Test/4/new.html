@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .root{
+        --color:rgb(57, 182, 82);
+       --secncolor:rgb(2, 23, 6);
+       --opacity:rgb(53, 85, 230);
+        --defpadd:30px;
+        --defopa:0.5;
+
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar {
+        background-color: var(---color);
+
+    }
+
+    .navbar ul {
+        display: flex;
+padding: 40px;
+    }
+
+    .navbar ul li {
+        padding: var(--defopa);
+        border: 2px solid var(--color);
+
+        list-style: none;
+       
+    }
+     li:nth-child(1){
+        --color: rgb(243, 87, 8);
+        background-color:var(--opacity);
+     }
+</style>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Nav 1</li>
+            <li>
+                Nav 2
+            </li>
+
+            <li>Nav 3</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

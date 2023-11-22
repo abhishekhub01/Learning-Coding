@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color:rgba(3, 135, 47, 0.804);
+            --secolor:rgba(151, 206, 13, 0.804);
+            --colpa:rgba(129, 80, 5, 0.804);
+        --varcol:rgba(48, 30, 2, 0.804);
+        }
+        * {
+            margin: 0px;
+        }
+
+        .navbar {}
+
+        .navbar ul {
+            border: 2px solid black;
+            display: flex;
+            background-color:var(--color);
+           
+        }
+
+        .navbar ul li {
+            padding: 20px;
+            
+            list-style: none;
+            opacity: var(--colpa);}
+            .url li :first-child{
+                padding: var(--secolor,purple);
+            }
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li style="font-size: 30px;">Home</li>
+            <li style="font-size: 30px;">about</li>
+            <li style="font-size: 30px;" >contact</li>
+            <li style="font-size: 30px;" >extra</li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
